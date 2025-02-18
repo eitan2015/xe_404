@@ -183,7 +183,7 @@ local function onAnimationPlayed(animationTrack)
 			s:Play()
 			s.Volume = Volume
 			s.PlaybackSpeed = Speed
-			wait(0.5)
+			wait(0.8)
 			s:Stop()
 
 			-- Destroy force after some time to prevent continuous movement
